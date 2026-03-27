@@ -1,3 +1,7 @@
+# Work in progress (!)
+
 ![screenshot](ressources/screenshot1.png)
 
-Work in progress
+Idk I'm proud of it
+
+Will try animating it soon
