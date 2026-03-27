@@ -2,6 +2,10 @@ import pygame
 import os
 
 pygame.init()
+pygame.mixer.init()
+
+pygame.mixer.music.load("ressources/MUSIC.mp3")
+pygame.mixer.music.play(-1)
 
 clock = pygame.time.Clock()
 
@@ -23,7 +27,7 @@ while running:
 
     filename = frames[curr_frame]
     frame = pygame.image.load("video-frames/frames/" + filename)
-    frame = pygame.transform.scale(frame, (600, 400))
+    frame = pygame.transform.scale(frame, (600, 400)) # hopefully this keeps the image looking good, code did not work without this line.
 
     i = 2
     while i < 600:
@@ -39,6 +43,7 @@ while running:
 
     pygame.display.flip()
 
+    # could change this to make it stop after the last frame
     curr_frame += 1
     if curr_frame >= len(frames):
         curr_frame = 0
