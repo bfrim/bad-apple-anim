@@ -1,4 +1,4 @@
-# Bad Apple animation, made using a dot grid in Pygame.
+## Bad Apple animation, made using a dot grid in Pygame.
 
 ## Preview:
 
@@ -6,5 +6,8 @@
 
 *(the animation is 10 fps because it's a lot of images lol)
 
+## Instructions:
+- Just run dots.py
+
 ## Next:
-I wanna make this work in the CLI because that sounds cool.
+- I wanna make this work in the CLI because that sounds cool.
