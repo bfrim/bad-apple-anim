@@ -43,10 +43,9 @@ while running:
 
     pygame.display.flip()
 
-    # could change this to make it stop after the last frame
     curr_frame += 1
     if curr_frame >= len(frames):
-        curr_frame = 0
+        break
 
     clock.tick(10)
 
