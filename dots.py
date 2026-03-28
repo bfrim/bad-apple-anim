@@ -9,9 +9,9 @@ clock = pygame.time.Clock()
 window = pygame.display.set_mode((600, 400))
 
 # create font to display loading message with default font
-font = pygame.font.Font(None, 36)
-text_surface = font.render("Loading animation...", True, (255, 255, 255))
-window.blit(text_surface, (0, 0))
+font = pygame.font.Font(None, 24)
+text_surface = font.render("Loading 2,190 frames...", True, (255, 255, 255))
+window.blit(text_surface, (5, 5))
 pygame.display.flip()
 
 # frame_one = pygame.image.load('1frameman.png')
