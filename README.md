@@ -6,6 +6,8 @@ Each frame is converted into a grid of dots based on brightness.
 
 ![Preview](ressources/anim-preview.gif)
 
+Original: https://youtu.be/FtutLA63Cp8
+
 ## Installation
 
 ```bash
