@@ -14,6 +14,7 @@ text_surface = font.render("Loading 2,190 frames...", True, (255, 255, 255))
 window.blit(text_surface, (5, 5))
 pygame.display.flip()
 
+# old code for a single frame
 # frame_one = pygame.image.load('1frameman.png')
 # frames = os.listdir("video-frames/frames")
 # frames = sorted(frames)
@@ -44,6 +45,7 @@ while running:
             
     window.fill((0, 0, 0))
 
+    # old code for a single frame
     # filename = frames[curr_frame]
     # frame = pygame.image.load("video-frames/frames/" + filename)
     # frame = pygame.transform.scale(frame, (600, 400))
@@ -65,6 +67,7 @@ while running:
 
     pygame.display.flip()
 
+    # kill animation if we run out of frames
     curr_frame += 1
     if curr_frame >= len(preloaded_frames):
         break
